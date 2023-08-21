@@ -1,0 +1,5 @@
+set.seed(123)  # For reproducibility
+sample_letters <- sample(LETTERS, size = 5)
+sample_factor <- factor(sample_letters)
+factor_levels <- levels(sample_factor)
+print(factor_levels)
