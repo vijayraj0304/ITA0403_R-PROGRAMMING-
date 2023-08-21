@@ -1,0 +1,11 @@
+a <- c(1,2,3)
+b <- c(4,5,6)
+c <- c(7,8,9)
+mat1 <- rbind(a,b,c)
+print(mat1[3:3])
+
+d <- c(3,2,1)
+e <- c(6,4,5)
+f <- c(6,9,7)
+mat2 <- rbind(d,e,f)
+print(mat2[2,])
